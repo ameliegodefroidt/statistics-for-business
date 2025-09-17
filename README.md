@@ -4,7 +4,7 @@ This repository contains a set of **interactive apps and resources** to support 
 
 The aim is to complement lecture slides with hands-on tools that let students **explore data, visualize patterns, and understand key statistical concepts interactively**.
 
-⚠️ Note: all plots update in real time as new data is entered, but data is anonymous and not saved permanently — once the app is restarted, all entries are lost. 
+######## ⚠️ _Note: all plots update in real time as new data is entered, but data is anonymous and not saved permanently — once the app is restarted, all entries are lost._
 
 ##### 📂 Repository Structure
 

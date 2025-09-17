@@ -6,7 +6,7 @@ The aim is to complement lecture slides with hands-on tools that let students **
 
 
 
-#### 📂 Repository Structure
+##### 📂 Repository Structure
 
 ```text
 statistics-for-business/
@@ -17,9 +17,10 @@ statistics-for-business/
 ├── README.md            # Repository overview (this file)
 ```
 
+
 -----
 
-##### 🚀 App 1: Variability
+#### 🚀 App 1: Variability
 
 This app introduces measures of **spread in data**:
 - Range, variance, and standard deviation  
@@ -28,9 +29,10 @@ This app introduces measures of **spread in data**:
 
 **Learning goal:** understand how different measures capture variation around the mean and why variability matters in business decisions.
 
+
 ---
 
-##### 🚀 App 2: Distributions
+#### 🚀 App 2: Distributions
 
 Students can enter their own values for three variables:
 - Height (cm)  
@@ -44,9 +46,10 @@ The app produces:
 
 **Learning goal:** recognize that some variables follow a normal distribution while others follow very different patterns.
 
+
 ---
 
-##### 🚀 App 3: Correlation
+#### 🚀 App 3: Correlation
 
 Students enter paired data (e.g., study hours vs exam grades). The app shows:
 - A scatterplot of their data  
@@ -59,6 +62,6 @@ Students enter paired data (e.g., study hours vs exam grades). The app shows:
 
 ## 👩‍🏫 Instructor
 
-This repository is maintained by **[Your Name]**, instructor of *Statistics for Business* at **IESEG School of Management**.  
+This repository is maintained by **[Amélie Godefroidt]**, instructor of *Statistics for Business* at **IESEG School of Management**.  
 
 The aim is to make statistics more **interactive, intuitive, and engaging** by letting students experiment with data themselves.

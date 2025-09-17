@@ -11,10 +11,10 @@ The aim is to complement lecture slides with hands-on tools that let students **
 ```text
 statistics-for-business/
 │
-├── app-variability/     # App on measures of variability
-├── app-distributions/   # App on distributions (normal, skewed, discrete)
-├── app-correlation/     # App on correlation
-├── README.md            # Repository overview (this file)
+├── variability/app.R     # App on measures of variability
+├── distributions/app.R   # App on distributions (normal, skewed, discrete)
+├── correlation/app.R     # App on correlation
+├── README.md             # Repository overview (this file)
 ```
 
 

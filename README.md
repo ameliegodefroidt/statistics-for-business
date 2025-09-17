@@ -18,43 +18,46 @@ statistics-for-business/
 ```
 
 
-
 ##### 🚀 App 1: Variability
 
+This app introduces measures of **spread in data**:
+- Range, variance, and standard deviation  
+- How spread changes when outliers are present  
+- Visual comparisons of datasets with the same mean but different variability  
 
+**Learning goal:** understand how different measures capture variation around the mean and why variability matters in business decisions.
 
+---
 
-### 🚀 App 2: Distributions
+##### 🚀 App 2: Distributions
 
-The first app included in this repository is designed for class participation.  
 Students can enter their own values for three variables:
+- Height (cm)  
+- Shoe size (EU)  
+- Number of siblings  
 
-- **Height (cm)**  
-- **Shoe size (EU)**  
-- **Number of siblings**  
+The app produces:
+- A histogram of heights (with optional normal curve overlay)  
+- A histogram of shoe sizes (with optional normal curve)  
+- A bar chart of siblings (to highlight a non-normal distribution)  
 
-The app then produces:
+**Learning goal:** recognize that some variables follow a normal distribution while others follow very different patterns.
 
-1. A histogram of heights (with optional normal curve overlay).  
-2. A histogram of shoe sizes (with optional normal curve).  
-3. A bar chart of the number of siblings (to highlight a non-normal distribution).  
+---
 
-This illustrates that some data resemble the **normal distribution**, while other variables follow **different patterns**.
+##### 🚀 App 3: Correlation
 
-#### 🎓 Learning Goals
+Students enter paired data (e.g., study hours vs exam grades). The app shows:
+- A scatterplot of their data  
+- The correlation coefficient  
+- An optional line of best fit  
 
-- Recognize that many variables cluster around the mean and resemble the **normal distribution**.  
-- Understand that not all data are normal — discrete or skewed variables follow different distributions.  
-- Gain intuition for why distributional assumptions matter in statistical analysis.  
-
-
+**Learning goal:** explore how correlation captures the strength and direction of relationships between two variables.
 
 ---
 
 ## 👩‍🏫 Instructor
 
-This repository is maintained by **[Your Name]**, instructor of *Statistics for Business* at **[Your Institution]**.  
+This repository is maintained by **[Your Name]**, instructor of *Statistics for Business* at **IESEG School of Management**.  
 
 The aim is to make statistics more **interactive, intuitive, and engaging** by letting students experiment with data themselves.
-
----

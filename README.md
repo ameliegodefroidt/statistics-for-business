@@ -20,7 +20,7 @@ statistics-for-business/
 
 -----
 
-#### 🚀 App 1: Variability
+#### 🚀 App 1: Variability (work-in-progress)
 
 This app introduces measures of **spread in data**:
 - Range, variance, and standard deviation  
@@ -32,11 +32,11 @@ This app introduces measures of **spread in data**:
 
 ---
 
-#### 🚀 App 2: Distributions
+#### 🚀 App 2: Distributions (work-in-progress)
 
 Students can enter their own values for three variables:
 - Height (cm)  
-- Shoe size (EU)  
+- Hours of sleep last night (hs)  
 - Number of siblings  
 
 The app produces:
@@ -47,9 +47,13 @@ The app produces:
 **Learning goal:** recognize that some variables follow a normal distribution while others follow very different patterns.
 
 
+
+Height (cm) → continuous, usually bell-shaped ≈ normal.
+Hours of sleep per night → continuous, right-skewed (some very low sleepers, fewer extreme high sleepers).
+Number of siblings → discrete, skewed count data.
 ---
 
-#### 🚀 App 3: Correlation
+#### 🚀 App 3: Correlation (work-in-progress)
 
 Students enter paired data (e.g., study hours vs exam grades). The app shows:
 - A scatterplot of their data  

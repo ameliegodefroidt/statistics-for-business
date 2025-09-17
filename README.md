@@ -35,22 +35,22 @@ This app introduces measures of **spread in data**:
 #### 🚀 App 2: Distributions (work-in-progress)
 
 Students can enter their own values for three variables:
-- Height (cm)  
-- Hours of sleep last night (hs)  
-- Number of siblings  
+- Height (cm)
+- Minutes spent on social media yesterday 
+- Number of siblings
 
 The app produces:
 - A histogram of heights (with optional normal curve overlay)  
-- A histogram of shoe sizes (with optional normal curve)  
-- A bar chart of siblings (to highlight a non-normal distribution)  
+- A histogram of social media usage (to highlight skewness)  
+- A bar chart of siblings (to highlight a discrete, non-normal distribution)  
 
 **Learning goal:** recognize that some variables follow a normal distribution while others follow very different patterns.
 
+- Height (cm) → continuous, usually bell-shaped ≈ normal  
+- Minutes spent on social media yesterday → continuous, often right-skewed  
+- Number of siblings → discrete, skewed count data
 
 
-Height (cm) → continuous, usually bell-shaped ≈ normal.
-Hours of sleep per night → continuous, right-skewed (some very low sleepers, fewer extreme high sleepers).
-Number of siblings → discrete, skewed count data.
 ---
 
 #### 🚀 App 3: Correlation (work-in-progress)

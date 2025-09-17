@@ -4,13 +4,12 @@ This repository contains a set of **interactive apps and resources** to support 
 
 The aim is to complement lecture slides with hands-on tools that let students **explore data, visualize patterns, and understand key statistical concepts interactively**.
 
-###### ⚠️ _Note: all plots update in real time as new data is entered, but data is anonymous and not saved permanently — once the app is restarted, all entries are lost._
+###### ⚠️ _All plots update in real time as new data is entered, but data is anonymous and not saved permanently — once the app is restarted, all entries are lost._
 
 ##### 📂 Repository Structure
 
 ```text
 statistics-for-business/
-│
 ├── variability/app.R     # App on measures of variability
 ├── distributions/app.R   # App on distributions (normal, skewed, discrete)
 ├── correlation/app.R     # App on correlation

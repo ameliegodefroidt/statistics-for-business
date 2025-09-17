@@ -1,26 +1,28 @@
 # Statistics for Business – Interactive Tools
 
-This repository contains a collection of **interactive apps and resources** designed to support the *Statistics for Business* course at [IESEG School of Management].  
+This repository contains a set of **interactive apps and resources** to support the *Statistics for Business* course at IESEG School of Management.  
 
-The goal is to go beyond static lecture slides and give students hands-on opportunities to **explore data, visualize patterns, and understand key statistical concepts interactively**.
+The aim is to complement lecture slides with hands-on tools that let students **explore data, visualize patterns, and understand key statistical concepts interactively**.
 
----
+
 
 ## 📂 Repository Structure
 
+```text
 statistics-for-business/
 │
-├── app-variability/ # Interactive app on measures of variability
-├── app-distributions/ # Interactive app on distributions (normal, skewed, discrete)
-├── app-correlation/ # Interactive correlation visualizer
-├── README.md # Repository overview (this file)
+├── app-variability/     # App on measures of variability
+├── app-distributions/   # App on distributions (normal, skewed, discrete)
+├── app-correlation/     # App on correlation
+├── README.md            # Repository overview (this file)
+```
 
----
+
 
 ### 🚀 App 1: Variability
 
 
----
+
 
 ### 🚀 App 2: Distributions
 
@@ -44,6 +46,8 @@ This illustrates that some data resemble the **normal distribution**, while othe
 - Recognize that many variables cluster around the mean and resemble the **normal distribution**.  
 - Understand that not all data are normal — discrete or skewed variables follow different distributions.  
 - Gain intuition for why distributional assumptions matter in statistical analysis.  
+
+
 
 ---
 

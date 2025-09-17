@@ -4,7 +4,7 @@ This repository contains a set of **interactive apps and resources** to support 
 
 The aim is to complement lecture slides with hands-on tools that let students **explore data, visualize patterns, and understand key statistical concepts interactively**.
 
-
+⚠️ Note: all plots update in real time as new data is entered, but data is anonymous and not saved permanently — once the app is restarted, all entries are lost. 
 
 ##### 📂 Repository Structure
 
@@ -43,8 +43,6 @@ The app produces:
 - A histogram of heights (with optional normal curve overlay)  
 - A histogram of social media usage (to highlight skewness)  
 - A bar chart of siblings (to highlight a discrete, non-normal distribution)  
-
-⚠️ Plots update in real time as new data is entered, but data is not saved permanently — once the app is restarted, all entries are lost. 
 
 **Learning goal:** recognize that some variables follow a normal distribution while others follow very different patterns.
 

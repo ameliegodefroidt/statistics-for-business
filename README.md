@@ -6,7 +6,7 @@ The aim is to complement lecture slides with hands-on tools that let students **
 
 
 
-## 📂 Repository Structure
+#### 📂 Repository Structure
 
 ```text
 statistics-for-business/
@@ -19,7 +19,7 @@ statistics-for-business/
 
 
 
-### 🚀 App 1: Variability
+##### 🚀 App 1: Variability
 
 
 

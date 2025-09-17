@@ -17,6 +17,7 @@ statistics-for-business/
 ├── README.md            # Repository overview (this file)
 ```
 
+-----
 
 ##### 🚀 App 1: Variability
 

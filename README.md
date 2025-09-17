@@ -32,7 +32,7 @@ This app introduces measures of **spread in data**:
 
 ---
 
-#### 🚀 App 2: Distributions (work-in-progress)
+#### 🚀 App 2: Distributions
 
 Students can enter their own values for three variables:
 - Height (cm)
@@ -43,6 +43,8 @@ The app produces:
 - A histogram of heights (with optional normal curve overlay)  
 - A histogram of social media usage (to highlight skewness)  
 - A bar chart of siblings (to highlight a discrete, non-normal distribution)  
+
+⚠️ Plots update in real time as new data is entered, but data is not saved permanently — once the app is restarted, all entries are lost. 
 
 **Learning goal:** recognize that some variables follow a normal distribution while others follow very different patterns.
 

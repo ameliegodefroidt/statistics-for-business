@@ -1,4 +1,4 @@
-# app.R
+# app-distributions.R
 library(shiny)
 
 ui <- fluidPage(
@@ -10,12 +10,12 @@ ui <- fluidPage(
       
       textAreaInput("heights", "Heights (cm):", 
                     placeholder = "e.g. 170 165 180 172 168"),
-      textAreaInput("sleep", "Hours of sleep per night:", 
-                    placeholder = "e.g. 6 7 8 5 9 7"),
+      textAreaInput("social", "Minutes on social media yesterday:", 
+                    placeholder = "e.g. 30 120 45 200 15 60"),
       textAreaInput("siblings", "Number of siblings:", 
                     placeholder = "e.g. 0 1 2 2 3 1 0 4"),
       
-      numericInput("bins", "Number of bins (for height & sleep):", 
+      numericInput("bins", "Number of bins (for height & social media):", 
                    10, min = 5, max = 30, step = 1),
       checkboxInput("showNormal", "Overlay normal curve (for Height)", TRUE)
     ),
@@ -23,7 +23,7 @@ ui <- fluidPage(
     mainPanel(
       fluidRow(
         column(4, plotOutput("histHeight")),
-        column(4, plotOutput("histSleep")),
+        column(4, plotOutput("histSocial")),
         column(4, plotOutput("barSiblings"))
       ),
       hr(),
@@ -44,7 +44,7 @@ server <- function(input, output, session) {
   
   # Reactives
   heights  <- reactive({ toNumeric(input$heights) })
-  sleep    <- reactive({ toNumeric(input$sleep) })
+  social   <- reactive({ toNumeric(input$social) })
   siblings <- reactive({ toNumeric(input$siblings) })
   
   # Histogram for height (with optional normal overlay)
@@ -67,13 +67,14 @@ server <- function(input, output, session) {
     }
   })
   
-  # Histogram for sleep hours (no normal overlay, expect skewness)
-  output$histSleep <- renderPlot({
-    data <- sleep()
+  # Histogram for social media minutes (expect skewness)
+  output$histSocial <- renderPlot({
+    data <- social()
     if (length(data) == 0) return(NULL)
     
     hist(data, breaks = input$bins, freq = FALSE,
-         main = "Hours of Sleep per Night", xlab = "Hours",
+         main = "Minutes on Social Media (yesterday)", 
+         xlab = "Minutes",
          col = "lightgreen", border = "white")
   })
   
@@ -98,10 +99,10 @@ server <- function(input, output, session) {
       cat("Mean:", mean(heights()), "  SD:", sd(heights()), "\n\n")
     }
     
-    if (length(sleep()) > 0) {
-      cat("Sleep hours:\n")
-      print(summary(sleep()))
-      cat("Mean:", mean(sleep()), "  SD:", sd(sleep()), "\n\n")
+    if (length(social()) > 0) {
+      cat("Social media minutes:\n")
+      print(summary(social()))
+      cat("Mean:", mean(social()), "  SD:", sd(social()), "\n\n")
     }
     
     if (length(siblings()) > 0) {

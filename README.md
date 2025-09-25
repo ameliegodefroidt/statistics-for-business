@@ -6,6 +6,7 @@ The aim is to complement lecture slides with hands-on tools that let students **
 
 ###### ⚠️ _All plots update in real time as new data is entered, but data is anonymous and not saved permanently — once the app is restarted, all entries are lost._
 
+
 ##### 📂 Repository Structure
 
 ```text
@@ -66,5 +67,3 @@ Students enter paired data (e.g., study hours vs exam grades). The app shows:
 ## 👩‍🏫 Instructor
 
 This repository is maintained by **[Amélie Godefroidt]**, instructor of *Statistics for Business* at **IESEG School of Management**.  
-
-The aim is to make statistics more **interactive, intuitive, and engaging** by letting students experiment with data themselves.

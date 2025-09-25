@@ -19,7 +19,7 @@ statistics-for-business/
 
 -----
 
-#### 🚀 App 1: Variability (work-in-progress)
+#### 🚀 App 1: Variability [https://ameliegodefroidt.shinyapps.io/variability/]
 
 This app introduces measures of **spread in data**:
 - Range, variance, and standard deviation  
@@ -31,7 +31,7 @@ This app introduces measures of **spread in data**:
 
 ---
 
-#### 🚀 App 2: Distributions
+#### 🚀 App 2: Distributions [https://ameliegodefroidt.shinyapps.io/distributions/]
 
 Students can enter their own values for three variables:
 - Height (cm)
@@ -52,7 +52,7 @@ The app produces:
 
 ---
 
-#### 🚀 App 3: Correlation (work-in-progress)
+#### 🚀 App 3: Correlation [https://ameliegodefroidt.shinyapps.io/correlation/]
 
 Students enter paired data (e.g., study hours vs exam grades). The app shows:
 - A scatterplot of their data  
